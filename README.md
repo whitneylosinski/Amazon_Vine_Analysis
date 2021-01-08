@@ -61,5 +61,5 @@ With the data now cleaned and broken down into two tables based on membership of
 
 ![results_df](Results/results_df.png)
 
-### Summary 
-In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+### Summary  
+Based on the results of the analysis, there does not appear to be any positivity bias for reviews from members of the Amazon Vine program.  With 42.3% of Vine reviews being 5-stars and 49.9% of non-Vine reviews being 5-stars, the data indicates that non-Vine reviewers tend to be just slightly more positive than Vine reviewers.  However, one important things to note about the analysis is that out of the 51,129 reviews in our cleaned dataframe, there were very few reviews from Amazon Vine members (607) in comparison to reviews from non-Amazon Vine members (50522).  Because of this, it would be wise to do some additional analyses on the datasets to further prove the positivity bias does not exist for Amazon Vine members.  The first place to start would be by analyzing the percentage of 3-star and 4-star reviews from members and non-members.  Another option would be to choose a different dataset, such as reviews for kitchen items, and run the analysis again to compare the results.
