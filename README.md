@@ -10,6 +10,12 @@ Resources: Google Colab, AWS, PySpark, S3, PostgreSQL, RDS
 
 ### Results
 After extracting, transforming and loading the dataset, the following table of data from reviews was used for the analysis.
+```py
+  # Create the vine_table. DataFrame
+  vine_df = df.select(['review_id', 'star_rating', 'helpful_votes', 'total_votes', 'vine', 'verified_purchase'])
+  vine_df.show()
+```
+
 ![vine_df](Results/vine_df.png)
 
 Below is the table loaded into PostgreSQL.
