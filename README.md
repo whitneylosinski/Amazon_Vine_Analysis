@@ -19,7 +19,7 @@ After extracting, transforming and loading the dataset, the following table of d
 ![vine_df](Results/vine_df.png)
 
 Below is the table loaded into PostgreSQL.
-![postgreSQL_vine_df](Results/postgreSQL_vine_df)
+![postgreSQL_vine_df](Results/postgreSQL_vine_df.png)
 
 To perform the analysis, the table first needed to be filtered to clean up the data.  The table was filtered to only keep rows where total_votes were greater than or equal to 20 and then where helpful_votes divided by total_votes was greater than or equal to 50%.  This helped to ensure that the data used for the analysis was capturing reviews that were more likely to be helpful to users.
 
